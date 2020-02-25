@@ -1,0 +1,82 @@
+Twitch chat integration game ideas w/matt
+
+base ideas:
+-team of two for scalability
+-opt in to join via command (on screen VISIBLE prompts)
+-Leaderboard/highscores
+
+-communal vote game (ie. black jack (aka 21) voting on stay, split, whatever you do in black jack)
+
+1.Highest number (not a great idea)
+2.Black Jack
+3.QBERT
+
+GOOD STARTER IDEA:
+	Binary Choice Needle (Yes or no prompt)
+		-Needle goes towards "yes" side if chat types "yes", and vice versa for no
+	
+	How it should work:
+		-it should be an application that I can open whenever I would like to ask a question that has chat decision impact
+		
+		-it takes in chatroom commands based on the prompt (in the base case users should input "yes" or "no")
+		
+		-afer the the decision has been made (based on either timer, or pushing a button to end the decision making time)
+		there should be some fan fare(big yes or big no appears over the choice thing) to indicate which choice was made
+			-fanfare should include sound like to indicate that it's over
+			
+		-it should close on a button input and reset ready to be open again later (or just x out i guess :thinking:)
+		(ex: During a stream you ask your audience: "Should I buy *insert game name here*" then the people in the chatroom say yes or no
+			depending on what they want, then at the end "yes" wins)
+			
+	Possible implementations:
+		Prompt for streamer to enter the choice options(could be a window prompt with input choices for "choice 1" and "choice 2")
+			-allows for modifying without opening the code
+		Possibly implement timer
+			-allows for it to go on in the background and complete on its own (if prompt window is used, timer could be an optional check box
+				and prompt for amount of time in seconds)
+				
+	Main Purpose:
+		-provides an enhanced sense of interactivity by creating a visualization for group decision making
+		
+		Secondary purposes:
+			-to learn how to implement chatroom integration into a game/program
+			-learn how to make useful applications as a group by means of a personal project
+	
+	What we need:
+		1.What do we use to program it?
+			1.Options include:
+				1.C++
+					pros:
+						-both of our first programming language, therefore comfort pick
+						-alexis has worked with graphics in c++ before
+					cons:
+						-alexis did not like the graphics library setup for c++ in his past experience
+				2.C#(Unity)
+					pros:
+						-built in graphical stuff/3d model stuff
+						-meant for making games
+					cons:
+						-could be overkill for type of game we are planning to make
+						-would require both matt and alexis to learn c# better
+				3.Java
+					pros:
+						-.net is in java I believe, and might be used for chat integration
+						-java is efficient and widely used/flexible for Operating systems
+					cons:
+						-alexis doesnt know it very well (should learn it though anyways so maybe this is a pro)
+				4.Python (probably not, but maybe I guess)
+					pros:
+						-easy to use modules for graphics
+						-easy language to learn quickly
+					cons:
+						-matt would need to learn it, and I haven't used it too much
+						-less flexible/efficient (but it would suffice for this typ of thing I believe)
+						
+					
+		2.Learn how to get twitch chat and read it:
+			1.Find youtube videos/guides on how to read chat in a program and use it for input
+					
+				
+				
+				
+	
