@@ -12,7 +12,7 @@ int port = 6667;
 char nick[] = "alextra";
 char user[] = "alextra";
 char name[] = "alextra";
-char pass[] = "oauth:1xok1a02euh77fflis7rteqln58e5s";
+char pass[] = ""; //insert secret oauth code here :]
 
 int main() {
 	IRC conn;
